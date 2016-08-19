@@ -4,6 +4,6 @@ angular.module('movieDBDirectives',[]).directive('movieInfoBox', function() {
     scope: {
       movie: '=info'    // 'movie' set with the 'info' attribute
     },
-    templateUrl: 'templates/directives/movie-info-box.html'
+    templateUrl: 'templates/movie-info-box.html'
   };
 });

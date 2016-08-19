@@ -2,7 +2,7 @@
 angular.module('moviesDBApp', ['ngRoute','movieDBControllers','movieDBDirectives','movieDBServices'])
 .constant("myMovieConfig", {
         "moviesEndpoint" : "https://api.themoviedb.org/3/movie",
-        "apiKey": "35e16679c616a21b9ddebb66272c5902"
+        "apiKey": "1c0e406bf696030f6b759b0f7110efb1"
     })
 .config(function($routeProvider) {
 		 
