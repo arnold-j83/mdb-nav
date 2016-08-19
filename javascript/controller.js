@@ -69,4 +69,7 @@ angular.module('movieDBControllers',[])
         width: 400      
         }];
   $scope.map = $scope.maps[0];
+})
+.controller('HomeController', function($scope) {
+    $scope.title = "Welcome To The Movies";
 });

@@ -12,3 +12,9 @@ movie-nav .list-inline > li > a.active { background-color: #337AB7; color: white
 .zoom-button {padding: 4px 8px; opacity: 0.8;}
 
 select {padding: 0.5em; border-radius: 5px; font-size: 1.4em;}
+
+.btn-link {border: 3px solid grey; padding: 5px; margin: 60px; font-size: large; text-decoration: none; color: grey;}
+ 
+div.home-page {background: transparent; font-size: large; text-align: center;}
+ 
+div.home-page h1 {background: transparent; font-size: 300%;}
