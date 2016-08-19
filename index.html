@@ -10,6 +10,25 @@
   <script src="javascript/vendor/bootstrap.min.js"></script>
   </head>
   <body>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container" id="navcontainer">
+      <div class="navbar-header">
+        <a class="navbar-brand" id="nav-brand" href="#">Movies App</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </button>
+      </div>
+      <ul id="myCollapsingList" class ="nav navbar-nav navbar-right collapse navbar-collapse">  
+        <li><a href="#popular" class="toggleThis">Popular</a></li>
+        <li><a href="#upcoming" class="toggleThis">Upcoming</a></li>
+        <li><a href="#topRated" class="toggleThis">Top Rated</a></li>
+        <li><a href="#nowPlaying" class="toggleThis">Now Playing</a></li>
+      </ul>
+    </div>
+  </nav>
     <div ng-view>
     </div>
   </body>
